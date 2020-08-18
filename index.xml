@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fabricación Digital on Antonia Diaz</title>
+    <title>Antonia Díaz Pezzani on Antonia Diaz</title>
     <link>https://antonidiaz.github.io/</link>
-    <description>Recent content in Fabricación Digital on Antonia Diaz</description>
+    <description>Recent content in Antonia Díaz Pezzani on Antonia Diaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Jun 2020 19:30:08 +1000</lastBuildDate>
@@ -57,12 +57,30 @@
     </item>
     
     <item>
-      <title>Investigación Materiales</title>
+      <title>Encargo 4 &#43; Investigación Materiales</title>
       <link>https://antonidiaz.github.io/docs/investigaci%C3%B3n-materiales/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://antonidiaz.github.io/docs/investigaci%C3%B3n-materiales/</guid>
       <description>Investigación materiales para construir maceteros con el objetivo de realizar cultivo casero o familiar.</description>
+    </item>
+    
+    <item>
+      <title>Proceso Germinado</title>
+      <link>https://antonidiaz.github.io/docs/proceso-germinado/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://antonidiaz.github.io/docs/proceso-germinado/</guid>
+      <description>Continuación de la investigación de materiales para macetas e inicio de germinado en ellas.</description>
+    </item>
+    
+    <item>
+      <title>Encargo 5 Proceso Moldeado</title>
+      <link>https://antonidiaz.github.io/docs/molde/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://antonidiaz.github.io/docs/molde/</guid>
+      <description>Fabricación Moldeado La fabricación por moldes se aplica en diferentes áreas y de variadas formas, esta se puede encontrar en artesanía, orfebrería, juguetes, piezas de cableado y otras, packaging, accesorios automovilísticos, electrodomésticos, elementos urbanos, construcción y finalmente en el ámbito industrial.</description>
     </item>
     
     <item>
