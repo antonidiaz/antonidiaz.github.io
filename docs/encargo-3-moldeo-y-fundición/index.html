@@ -103,15 +103,15 @@
     </li>
     
     <li class="">
-      <a href="https://antonidiaz.github.io/docs/bonus-2-molde-gh/">Bonus 1 Molde GH</a>
+      <a href="https://antonidiaz.github.io/docs/bonus-1-mecanizado-mesa/">Bonus 1 Mecanizado Extra</a>
     </li>
     
     <li class="">
-      <a href="https://antonidiaz.github.io/docs/bonus-1-mecanizado-mesa/">Bonus 2 Mecanizado Extra</a>
+      <a href="https://antonidiaz.github.io/docs/bonus-2-molde-gh/">Bonus 2 Molde GH</a>
     </li>
     
     <li class="">
-      <a href="https://antonidiaz.github.io/docs/investigaci%C3%B3n-materiales/">Encargo 4 &#43; Investigación Materiales</a>
+      <a href="https://antonidiaz.github.io/docs/encargo-4-investigaci%C3%B3n-materiales/">Encargo 4 &#43; Investigación Materiales</a>
     </li>
     
     <li class="">
@@ -119,7 +119,11 @@
     </li>
     
     <li class="">
-      <a href="https://antonidiaz.github.io/docs/molde/">Encargo 5 Proceso Moldeado</a>
+      <a href="https://antonidiaz.github.io/docs/encargo-5-proceso-moldeado/">Encargo 5 Proceso Moldeado</a>
+    </li>
+    
+    <li class="">
+      <a href="https://antonidiaz.github.io/docs/examen-biocono/">Exámen Conoce Biocono</a>
     </li>
     
     <li class="">
@@ -146,7 +150,7 @@
 <hr>
 <h2 id="desbaste">Desbaste</h2>
 <p>Desbastar se refiere a eliminar fragmentos grandes de alguna superficie que se quiere perfeccionar. En este caso, el respaldo de la silla tiene una superficie curva y prolija que la CNC no consigue solo con el rebaje en 2D.</p>
-<p><img src="/img/collage_des.png" alt="Imagen Simple"></p>
+<p><img src="/img/encargo_3/collage_des.png" alt="Imagen Simple"></p>
 <hr>
 <h2 id="mecanizado-25d">Mecanizado 2.5D</h2>
 <p>Para entender el mecanizado 2.5D es necesario explicar y comparar con el mecanizado 2D.</p>
@@ -163,7 +167,7 @@
 <p>Además, el mecanizado en 2.5D es mucho más eficiente en cuanto al tiempo debido a que se reduce el desplazamiento de los ejes en comparación a la mecanización en 3D.</p>
 <hr>
 <h2 id="pieza-mecanizada">Pieza Mecanizada</h2>
-<p><img src="/img/planos_respaldo.png" alt="Imagen Simple"></p>
+<p><img src="/img/encargo_3/planos_respaldo.png" alt="Imagen Simple"></p>
 <hr>
 <h2 id="modelo-en-fusion360">Modelo en Fusion360</h2>
 <div>
@@ -199,10 +203,10 @@
 
 <h3 id="2-alinear-la-pieza-y-mover-cerca-del-origen">2. Alinear la pieza y mover cerca del origen</h3>
 <p>Preocuparse que el mecanizado quede <strong>ortogonal</strong> al origen ya que el mecanizado se hara por ambas caras.</p>
-<p><img src="/img/respaldo_alineado.png" alt="Imagen Simple"></p>
+<p><img src="/img/encargo_3/respaldo_alineado.png" alt="Imagen Simple"></p>
 <h3 id="3-crear-stock-para-mecanizado">3. Crear stock para mecanizado</h3>
 <p>Crear sketch y extruir de manera que el bloque sobrepase todos los ejes de las piezas</p>
-<p><img src="/img/stock_respaldo.png" alt="Imagen Simple"></p>
+<p><img src="/img/encargo_3/stock_respaldo.png" alt="Imagen Simple"></p>
 <h3 id="4-set-up-mecanizado">4. Set Up Mecanizado</h3>
 <p>Igual que el mecanizado anterior, configurar en espacio de trabajo MANUFACTURE</p>
 <ul>
@@ -231,7 +235,7 @@
 </div>
 
 <p>Se genera un espacio de mecanizado exacto por el que deberá pasar la fresa al mecanizar (rectángulo blanco)</p>
-<p><img src="/img/dibujo_project.png" alt="Imagen Simple"></p>
+<p><img src="/img/encargo_3/dibujo_project.png" alt="Imagen Simple"></p>
 <h3 id="6-adaptative-clearing-en-manufacture">6. Adaptative Clearing en MANUFACTURE</h3>
 <p>En este paso se remueve el material en el <strong>eje Z</strong> para optimizar la obtención de las superficie.</p>
 <ul>
@@ -279,11 +283,11 @@ Optimal Load &gt; 50% de la fresa</p>
 </code></pre>
 </li>
 </ul>
-<p><img src="/img/parallel_1.png" alt="Imagen Simple"></p>
+<p><img src="/img/encargo_3/parallel_1.png" alt="Imagen Simple"></p>
 <h3 id="8-parallel-en-el-otro-sentido">8. Parallel en el otro sentido</h3>
 <p>Para terminar, duplicamos la configuración anterior de parallel pero creamos una trayectoria perpendicular a esta.</p>
 <p>Passes &gt; Pass Direction &gt; 90 deg</p>
-<p><img src="/img/parallel_2.png" alt="Imagen Simple"></p>
+<p><img src="/img/encargo_3/parallel_2.png" alt="Imagen Simple"></p>
 <p>Simulación en ambos sentidos</p>
 <div>
     <video 
@@ -296,10 +300,10 @@ Optimal Load &gt; 50% de la fresa</p>
 
 <h3 id="9-areas-rojas">9. Areas Rojas</h3>
 <p>Las áreas marcadas con rojo en la simulación del mecanizado representan <strong>colisiones</strong> de la fresa contra el bloque de material</p>
-<p><img src="/img/colision.png" alt="Imagen Simple"></p>
+<p><img src="/img/encargo_3/colision.png" alt="Imagen Simple"></p>
 <p>Para solucionar esto es necesario utilizar fresas más largas</p>
 <p>Tool Library &gt; Edit &gt; Cutter &gt; Lenght</p>
-<p><img src="/img/collage_fresas.png" alt="Imagen Simple"></p>
+<p><img src="/img/encargo_3/collage_fresas.png" alt="Imagen Simple"></p>
 <h3 id="10-lado-contrario-del-respaldo">10. Lado Contrario del Respaldo</h3>
 <p>El lado contrario del respaldo se genera con los mismos pasos seguidos anteriormente pero desde la <strong>vista contraria</strong></p>
 <div>
